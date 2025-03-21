@@ -1,0 +1,34 @@
+리눅스 명령어
+sudo apt install tree
+/	:	root directory
+~	:	home directory
+.	:	self
+. .	:	parent
+절대경로 : root부터			cd /home/stud/software
+상대경로 : 작업하는 곳 기준으로	cd ./software
+
+파일 내용 만드는 법
+cat > sample.txt
+내용
+ctrl + D 내용종료
+파일 관련된 정보, 내용으로 나뉨
+
+디렉터리 만드는법
+mk dir
+
+path : 파일경로, 실행파일경로설정
+
+touch 내용이 없는 빈파일 만드는 명령어
+ll 몇시몇분에 파일을 만들었는지
+
+cat sample.txt
+sample 안에 내용 출력
+more head(위에서 10줄) tail(밑에서 10줄) 도 내용출력과 관련
+
+ls
+파일을 정보를 확인
+cat
+파일의 내용을 확인
+
+wc 라인수 문자수 어쩌고 표시
+\\wsl$\ 우분투 파일
